@@ -2,10 +2,10 @@ import socket
 import sys
 from threading import Thread
 
-from window import Window
+from room import Room
 
 
-class Server(Window):
+class Server(Room):
     def __init__(self, host, port, password):
         self.host = host
         self.port = port

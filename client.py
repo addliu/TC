@@ -1,10 +1,10 @@
 import socket, sys, signal
-from window import Window
+from room import Room
 from threading import Thread
 from clint.textui import colored
 
 
-class Client(Window):
+class Client(Room):
     def __init__(self, host, port, password):
         self.host = host
         self.port = port

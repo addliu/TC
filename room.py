@@ -1,4 +1,4 @@
-class Window(object):
+class Room(object):
     def sendMsg(self, sock, message):
         sock.sendall(message.encode())
 
